@@ -9,11 +9,29 @@ Please make sure the script is executable.
 	
 	chmod u+x run.sh
 
-The following command builds checks out XSSStrike v2.0 into the local app directory and the builds the docker image. It will replace the app directory if there is already one.
+The following command builds checks out XSSStrike v2.0 into the local app directory. 
+It will replace the app directory if there is already one.
+
+	./run.sh install
+
+Build the docker image
 
 	./run.sh build
 
-Starts the container in interactive mode and triggers the scanner. 
+Starts the container in interactive mode and triggers the scanner. The image has to be build first.
 
 	./run.sh scan
+
+
+## Help
+
+Just use the run.sh script without parameters to see all options
+
+	./run.sh
+
+## License
+
+It's just a dumb script ... 
+licensed under the WTFPL (DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE - Version 2)
+
 
