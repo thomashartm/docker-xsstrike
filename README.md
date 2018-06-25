@@ -31,7 +31,8 @@ Just use the run.sh script without parameters to see all options
 
 ## License
 
-It's just a dumb script ... 
-licensed under the WTFPL (DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE - Version 2)
+It's just a dumb script ...
+
+Licensed under the WTFPL - DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE (Version 2)
 
 
