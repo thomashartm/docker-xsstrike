@@ -7,4 +7,4 @@ RUN pip install --upgrade -r /app/requirements.txt
 
 CMD []
 
-ENTRYPOINT ["python3.4", "/app/xsstrike"]
+ENTRYPOINT ["python3.4", "/app/xsstrike.py"]
