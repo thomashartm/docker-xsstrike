@@ -16,7 +16,7 @@ case "$1" in
 		docker build . -t $IMAGE
 		;;
 	scan)
-		docker run --rm -i -t $IMAGE	
+		docker run --rm -i -t $IMAGE	${@:2:$#}	
 		;;
     *)
         echo "Usage: `basename $0`  {install|build|scan}"
